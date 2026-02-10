@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Congratulations 💖</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #ff758f, #ffb199);
+      font-family: "Poppins", sans-serif;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .message {
+      background: rgba(255,255,255,0.85);
+      padding: 50px 40px;
+      border-radius: 26px;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+      animation: popIn 0.9s ease;
+    }
+
+    @keyframes popIn {
+      from {
+        opacity: 0;
+        transform: scale(0.85) translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+      }
+    }
+
+    h1 {
+      font-size: 34px;
+      color: #ff4d6d;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #444;
+    }
+
+    .emoji {
+      font-size: 60px;
+      margin-bottom: 18px;
+      animation: bounce 1.6s infinite;
+    }
+
+    @keyframes bounce {
+      0%,100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+	  
+
+    }
+		  .gif {
+  width: 300px;
+  max-width: 80%;
+  margin-bottom: 20px;
+  border-radius: 16px;
+}
+  </style>
+</head>
+
+<body>
+
+  <div class="message">
+    <div class="emoji">🎉💘</div>
+	<img src="giphy.gif" alt="Celebration" class="gif">
+    <h1>Поздравления, Юлка!</h1>
+    <p>
+      Избра <b>най-добрия вариант</b> 💖<br>
+      Мъдър избор. Отличен вкус.  
+	  Обичам те. 
+	  <p>От Ники</p>
+    </p>
+  </div>
+
+</body>
+</html>
