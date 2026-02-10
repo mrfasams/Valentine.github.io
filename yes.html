@@ -2,85 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Congratulations 💖</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, #ff758f, #ffb199);
-      font-family: "Poppins", sans-serif;
-      overflow: hidden;
-      text-align: center;
-    }
-
-    .message {
-  background: rgba(255,255,255,0.92);
-  padding: 28px 22px;
-  border-radius: 26px;
-  box-shadow: 0 25px 60px rgba(0,0,0,0.25);
-  animation: popIn 0.9s ease;
-
-  width: 74%;
-  /*max-width: 360px;  */ /* 👈 bigger card on phone */
-}
-
-    @keyframes popIn {
-      from {
-        opacity: 0;
-        transform: scale(0.85) translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: scale(1) translateY(0);
-      }
-    }
-
-    h1 {
-      font-size: 34px;
-      color: #ff4d6d;
-      margin-bottom: 12px;
-    }
-
-    p {
-      font-size: 18px;
-      color: #444;
-    }
-
-    .emoji {
-      font-size: 60px;
-      margin-bottom: 18px;
-      animation: bounce 1.6s infinite;
-    }
-
-    @keyframes bounce {
-      0%,100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-	  
-
-    }
-		  .gif {
-  width: 100%;
-  max-width: 100%;
-  margin: 18px auto;
-  border-radius: 14px;
-  display: block;
-}
-@media (max-width: 480px) {
+ <style>
   body {
-    align-items: flex-start;
-    padding-top: 12vh;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ff758f, #ffb199);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
   }
 
   .message {
-    transform: scale(1.05);
+    background: rgba(255,255,255,0.9);
+    padding: 24px;
+    border-radius: 22px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+    max-width: 90vw;
   }
-  </style>
+
+  h1 {
+    font-size: 26px;
+    color: #ff4d6d;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.4;
+  }
+
+  .emoji {
+    font-size: 48px;
+    margin-bottom: 12px;
+  }
+
+  .gif {
+    width: 100%;
+    max-width: 260px;
+    margin: 14px auto;
+    border-radius: 14px;
+    display: block;
+  }
+</style>
+
 </head>
 
 <body>
@@ -89,12 +61,12 @@
     <div class="emoji">🎉💘</div>
 	<img src="giphy.gif" alt="Celebration" class="gif">
     <h1>Поздравления, Юлка!</h1>
-    <p>
-      Избра <b>най-добрия вариант</b> 💖<br>
-      Мъдър избор. Отличен вкус.  
-	  Обичам те. 
-	  <p>От Ники</p>
-    </p>
+   <p>
+  Избра <b>най-добрия вариант</b> 💖<br>
+  Мъдър избор. Отличен вкус.<br>
+  Обичам те.
+</p>
+<p><b>От Ники</b></p>
   </div>
 
 </body>
